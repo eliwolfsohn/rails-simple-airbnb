@@ -1,0 +1,15 @@
+<h1>Flats#show</h1>
+<div class="container">
+  <h2><%= @flat.name %></h2>
+  <div class="row">
+
+<p><%= @flat.address %></p>
+</div>
+<div class="row">
+<p>This flat is address? <%= @flat.address %></p>
+</div>
+<%= link_to "Edit", edit_flat_path(@flat) %>
+<%= link_to "Back to List", flats_path %>
+
+  </div>
+</div>
